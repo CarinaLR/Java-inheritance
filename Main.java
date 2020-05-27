@@ -12,7 +12,7 @@ class Main {
 
     // Truck myTruck = new Truck("Ford", "F150", (short) 500, true);
 
-    Sedan mySedan = new Sedan("Mercedes-Benz", "S-Class", 94.250, 5);
+    Sedan mySedan = new Sedan("Mercedes-Benz", "AMG S 63", 151.650, 5);
 
     System.out.println(mySedan);
   }
