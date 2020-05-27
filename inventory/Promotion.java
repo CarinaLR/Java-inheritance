@@ -29,4 +29,11 @@ public class Promotion extends Vehicle {
   public void setDiscount(Short discount) {
     this.discount = discount;
   }
+
+  // Override Method
+  @Override
+  public String toString() {
+    return super.toString() + ", we have an offer for you: " + this.offer + "your discount will be: " + this.discount
+        + "% on the final price.";
+  }
 }

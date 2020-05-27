@@ -30,7 +30,7 @@ public class Sedan extends Vehicle {
     this.rating = rating;
   }
 
-  // Override MEthod
+  // Override Method
   @Override
   public String toString() {
     return super.toString() + ", Lowest price in the market: $" + this.price + ", This vehicle has a rating of: "
