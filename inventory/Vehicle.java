@@ -17,7 +17,7 @@ public class Vehicle {
     return this.make;
   }
 
-  public void setMAke(String make) {
+  public void setMake(String make) {
     this.make = make;
   }
 
