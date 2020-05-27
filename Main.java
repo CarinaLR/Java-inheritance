@@ -12,8 +12,10 @@ class Main {
 
     // Truck myTruck = new Truck("Ford", "F150", (short) 500, true);
 
-    Sedan mySedan = new Sedan("Mercedes-Benz", "AMG S 63", 151.650, 5);
+    // Sedan mySedan = new Sedan("Mercedes-Benz", "AMG S 63", 151.650, 5);
 
-    System.out.println(mySedan);
+    Promotion myPromotion = new Promotion("Subaru", "Crosstrek", "free ABC checking", 15);
+
+    System.out.println(myPromotion);
   }
 }

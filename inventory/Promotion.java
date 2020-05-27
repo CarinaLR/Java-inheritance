@@ -4,10 +4,10 @@ public class Promotion extends Vehicle {
 
   // Properties
   private String offer;
-  private Short discount;
+  private int discount;
 
   // Constructor
-  public Promotion(String make, String model, String offer, Short discount) {
+  public Promotion(String make, String model, String offer, int discount) {
     super(make, model);
     this.offer = offer;
     this.discount = discount;
@@ -22,18 +22,18 @@ public class Promotion extends Vehicle {
     this.offer = offer;
   }
 
-  public Short getDiscount() {
+  public int getDiscount() {
     return this.discount;
   }
 
-  public void setDiscount(Short discount) {
+  public void setDiscount(int discount) {
     this.discount = discount;
   }
 
   // Override Method
   @Override
   public String toString() {
-    return super.toString() + ", we have an offer for you: " + this.offer + "your discount will be: " + this.discount
+    return super.toString() + ", we have an offer for you: " + this.offer + "! your discount will be: " + this.discount
         + "% on the final price.";
   }
 }
