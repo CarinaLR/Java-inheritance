@@ -19,7 +19,7 @@ class Main {
 
     Car myCar = new Car("Hundai", "Sonata", 100);
 
-    ElectricCar myECar = new ElectricCar("tesla", "Model s", 50, 2000);
+    ElectricCar myECar = new ElectricCar("tesla", "Model s", 50, 2000, "lalala");
 
     System.out.println(myECar);
   }
