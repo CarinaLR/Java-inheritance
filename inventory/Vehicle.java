@@ -1,6 +1,6 @@
 package inventory;
 
-public class Vehicle {
+public abstract class Vehicle {
 
   // Properties
   private String make;
@@ -20,6 +20,11 @@ public class Vehicle {
   public void setMake(String make) {
     this.make = make;
   }
+
+  // Abstract method
+  // it's quarantine that exits in all the inheritance from the abstract class.
+  // Just exits.
+  // public abstract void hornkHorn();
 
   // Overridden Methods
   @Override
